@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.heading{
+    margin-top: 10px;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading h1{
+    color: grey;
+}
+
+.heading h1 span{
+    color: black;
+}
+
+.container-left{
+    position: relative;
+    background-image: url("francisco-de-legarreta-c-92gDIK7yjfE-unsplash.jpg");
+    height: 30vw;
+    width: 50%;
+    background-size: cover;
+    background-color: red;
+}
+/* 
+.container-left img{
+    background-size: cover;
+} */
+
+.container-right{
+    position: relative;
+
+    background-image: url("julian-hochgesang-4DqsMC4-QQc-unsplash.jpg");
+    height: 30vw;
+    width: 50%;
+    background-size: cover;
+    background-color: yellow
+}
+
+.text-overlay {
+    font-size: 3vw;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background: rgba(255, 255, 255, 0.7); */
+    padding: 20px;
+    text-align: center;
+}
+
+.img{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-betweenq;
+    gap: 10px;
+}
+
+.heading2 h1{
+    margin-top: 40px;
+    /* margin-bottom: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content2{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.left{
+    position: relative;
+    height: 30vw;
+    width: 33%;
+    background-image: url("liz-joseph-b1LaPAR0Nbw-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: blueviolet;
+}
+
+.overlay2{
+    font-size: 3vw;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background: rgba(255, 255, 255, 0.7); */
+    padding: 20px;
+    text-align: center;
+}
+.mid{
+    position: relative;
+    height: 30vw;
+    width: 33%;
+    background-image: url("henry-co-kO92vuIpUHA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(58, 226, 43);
+}
+
+.right{
+    position: relative;
+    height: 30vw;
+    width: 33%;
+    background-image: url("luke-braswell-oYFv-_JKsVk-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: blueviolet;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.footer-left {
+    flex: 1;
+    text-align: right;
+    justify-content: center;
+}
+
+.footer-left h2{
+    flex: 1;
+    margin-bottom: 10px;
+    text-align:center;
+}
+
+.footer-mid {
+    justify-items: baseline;
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.footer-mid ul {
+    text-align: justify;
+}
+
+
+
+.footer-right {
+    flex: 1;
+    text-align: left;
+    padding-left: 40px; 
+
+}
+
+.footer-right input[type="button"] {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.footer-right input[type="button"]:hover {
+    background-color: #333;
+}
+
+
+
+#footer-left {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px; 
+}
+
+#btn {
+    padding: 8px 16px;
+    background-color: #202220; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: #424242; 
+    box-shadow: #424242;
+}
+
+
