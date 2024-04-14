@@ -267,5 +267,45 @@ li {
   }
 }
 
-/* Add more media queries as needed for finer adjustments */
+
+
+
+/* Mobile devices */
+@media only screen and (max-width: 768px) {
+    .heading {
+        font-size: 4vw; /* Adjust font size for mobile */
+    }
+
+    .container-left,
+    .container-right {
+        width: 100%; /* Full width for image containers on mobile */
+    }
+
+    .container-left,
+    .container-right,
+    .left,
+    .mid,
+    .right {
+        height: 40vw; /* Adjust image height for mobile */
+    }
+
+    .text-overlay {
+        font-size: 6vw; /* Adjust font size for mobile */
+    }
+
+    .content2 {
+        flex-wrap: wrap;
+    }
+
+    .left,
+    .mid,
+    .right {
+        width: 90%; /* Adjust width for mobile */
+        margin-bottom: 20px; /* Add margin between content2 items on mobile */
+    }
+
+    .overlay2 {
+        font-size: 6vw; /* Adjust font size for mobile */
+    }
+}
 
