@@ -219,4 +219,53 @@ li {
     box-shadow: #424242;
 }
 
+/* Default styles */
+
+/* Add your existing CSS here */
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  .heading h1 {
+    font-size: 4vw; /* Adjust font size for smaller screens */
+  }
+
+  .img {
+    flex-direction: column; /* Stack images vertically on smaller screens */
+  }
+
+  .container-left,
+  .container-right {
+    width: 100%; /* Full width for image containers on smaller screens */
+  }
+
+  .container-left,
+  .container-right,
+  .left,
+  .mid,
+  .right {
+    height: 40vw; /* Adjust image height for smaller screens */
+  }
+
+  .content2 {
+    flex-direction: column; /* Stack content2 items vertically on smaller screens */
+  }
+
+  .left,
+  .mid,
+  .right {
+    width: 100%; /* Full width for content2 items on smaller screens */
+  }
+
+  .footer {
+    flex-direction: column; /* Stack footer items vertically on smaller screens */
+  }
+
+  .footer-mid,
+  .footer-right {
+    text-align: center; /* Center text in footer for smaller screens */
+  }
+}
+
+/* Add more media queries as needed for finer adjustments */
 
